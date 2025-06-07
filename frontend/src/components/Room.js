@@ -82,7 +82,7 @@ export default class Room extends Component {
     .then((data) => {
       if (data) {
         this.setState({ song: data });
-        console.log("🎵 Current song:", data);
+        // console.log("🎵 Current song:", data);
       } else {
         this.setState({ song: {} }); // reset when no song
       }
